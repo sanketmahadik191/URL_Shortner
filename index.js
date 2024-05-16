@@ -21,7 +21,7 @@ app.post('/shorten', (req, res) =>{
     res.send(`
     <div class="shortened-link" style="margin-top: 20px; padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 3px; text-align:center">
     <h2 style="color: #333;">Short URL:</h2>
-    <a href="${shortenedLink}" target="_blank" style="color:blue; text-decoration: none;"> ${shortenedLink}</a>
+    <a href="${longUrl}" target="_blank" style="color:blue; text-decoration: none;"> ${shortenedLink}</a>
   </div>
   `);
   } else {
